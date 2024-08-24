@@ -4,7 +4,7 @@ setup(
         ext_modules=[
             Extension(
                 name="vectors",
-                sources = ["vectorsmodule.c"]
+                sources = ["source/vectorsmodule.c", "source/vec3.c"]
                 ),
             ]
         )

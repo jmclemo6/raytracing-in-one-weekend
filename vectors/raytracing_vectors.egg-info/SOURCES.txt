@@ -1,7 +1,8 @@
 pyproject.toml
 setup.py
-vectorsmodule.c
 raytracing_vectors.egg-info/PKG-INFO
 raytracing_vectors.egg-info/SOURCES.txt
 raytracing_vectors.egg-info/dependency_links.txt
 raytracing_vectors.egg-info/top_level.txt
+source/vec3.c
+source/vectorsmodule.c

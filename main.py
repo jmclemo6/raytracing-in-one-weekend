@@ -17,4 +17,17 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    u = vectors.vec3(1, 2, 3)
+    v = vectors.vec3(2, 3, 4);
+
+    print(f"Cross: {vectors.cross(u, v)}")
+    print(f"Dot: {vectors.dot(u, v)}")
+    print(f"Add: {u + v}")
+    print(f"Subtract: {u - v}")
+    print(f"Multiply: {u * v}")
+    print(f"Multiply w/ Scalar: {u * 2}")
+    print(f"Normalize: {u.get_normalized()}")
+    v.normalize()
+    print(f"Normalize in place: {v}")
+    print(f"Negate: {-u}")
